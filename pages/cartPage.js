@@ -31,7 +31,7 @@ export default class CartPage extends BasePage {
       until.elementsLocated(By.className("cart_item")),
       10000
     );
-    for (let item of items) {
+    for (const item of items) {
       const priceText = await item
         .findElement(By.className("inventory_item_price"))
         .getText();
