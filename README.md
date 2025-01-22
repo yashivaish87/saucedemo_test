@@ -24,10 +24,13 @@ Before running the project, ensure you have the following installed:
 ```plaintext
 project-root/
 ├── index.js              # Main script to execute tests
-├── LoginPage.js          # Login page object model
-├── CartPage.js           # Cart page object model
-├── CheckoutPage.js       # Checkout page object model
-├── LogoutPage.js         # Logout page object model
+├── loginPage.js          # Login page object model
+├── basePage.js           # Base page object model
+├── inventoryPage.js      # Inventory page object model
+├── productPage.js        # Product page object model
+├── cartPage.js           # Cart page object model
+├── checkoutPage.js       # Checkout page object model
+├── logoutPage.js         # Logout page object model
 ├── package.json          # Node.js dependencies
 ├── README.md             # Project documentation
 ```
